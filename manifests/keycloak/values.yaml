@@ -42,8 +42,6 @@ keycloak:
     - name: realm-secret
       mountPath: "/realm/"
       readOnly: true
-    - mountPath: /etc/localtime
-      name: timezone
 
   extraVolumes: |
     - name: theme
@@ -51,9 +49,6 @@ keycloak:
     - name: realm-secret
       secret:
         secretName: realm-secret
-    - hostPath:
-        path: /usr/share/zoneinfo/Asia/Seoul
-      name: timezone
 
   extraArgs: -Dkeycloak.import=/realm/realm-zcp-export.json
 
