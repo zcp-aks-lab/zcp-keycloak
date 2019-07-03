@@ -155,7 +155,7 @@ $ kubectl get pod -n zcp-system
 ## KeyCloak Installation
 ### tls secret 생성
 ```
-$ cd menifests/keycloak
+$ cd manifests/keycloak
 ```
 
 Ingress 에 적용할 TLS Secret 을 생성 한다.
@@ -169,7 +169,7 @@ metadata.namespace 의 값이 env.properties 의 TARGET_NAMESPACE 와 동일해�
 metadata.name 이 env.properties 의 DOMAIN_SECRET_NAME 과 동일해야 한다.
 
 ```
-$ vi menifests/keycloak/tls-secret.yaml
+$ vi manifests/keycloak/tls-secret.yaml
 ```
 
 ```
