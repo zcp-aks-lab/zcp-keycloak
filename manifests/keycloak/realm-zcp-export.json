@@ -1,8 +1,8 @@
 {
   "id": "zcp",
   "realm": "zcp",
-  "displayName": "Cloud Z CP - Demo",
-  "displayNameHtml": "Cloud Z CP - Demo",
+  "displayName": "Cloud Z CP - cloudzcp-",
+  "displayNameHtml": "Cloud Z CP - cloudzcp-",
   "notBefore": 1528451045,
   "revokeRefreshToken": false,
   "refreshTokenMaxReuse": 0,
@@ -614,7 +614,7 @@
       "clientAuthenticatorType": "client-secret",
       "secret": "4138cbf9-4091-4029-a1d6-d64450994f55",
       "redirectUris": [
-        "https://grafana.cloudzcp.com/*"
+        "https://monitoring.cloudzcp.io/*"
       ],
       "webOrigins": [],
       "notBefore": 0,
@@ -946,7 +946,7 @@
       "clientAuthenticatorType": "client-secret",
       "secret": "69ca391e-4999-4779-96cc-6aef4875ea46",
       "redirectUris": [
-        "https://logging.cloudzcp.com/*"
+        "https://logging.cloudzcp.io/*"
       ],
       "webOrigins": [],
       "notBefore": 0,
@@ -1078,7 +1078,7 @@
       "clientAuthenticatorType": "client-secret",
       "secret": "0459b1f5-2543-4c53-be04-f62601428480",
       "redirectUris": [
-        "https://git.cloudzcp.com/*"
+        "https://gitea.cloudzcp.io/*"
       ],
       "webOrigins": [
         ""
@@ -1216,15 +1216,15 @@
         "manage-account"
       ],
       "redirectUris": [
-        "https://devops.cloudzcp.com/securityRealm/finishLogin",
-        "https://console.cloudzcp.com/k8s-login",
-        "https://console-zdb.cloudzcp.com/k8s-login",
-        "https://monitoring.cloudzcp.com/login/generic_oauth",
-        "https://catalog.cloudzcp.com/login/generic_oauth",
+        "https://devops.cloudzcp.io/securityRealm/finishLogin",
+        "https://console.cloudzcp.io/login",
+        "https://console-zdb.cloudzcp.io/login",
+        "https://monitoring.cloudzcp.io/login/generic_oauth",
+        "https://catalog.cloudzcp.io/login/generic_oauth",
         "http://localhost:8181/k8s-login",
         "https://git.cloudzcp.io/login/generic_oauth",
-        "https://logging.cloudzcp.com/login/generic_oauth",
-        "https://registry.cloudzcp.com/login/generic_oauth",
+        "https://logging.cloudzcp.io/login/generic_oauth",
+        "https://registry.cloudzcp.io/login/generic_oauth",
         "/auth/realms/zcp/account/*"
       ],
       "webOrigins": [],
@@ -1356,7 +1356,7 @@
       "clientAuthenticatorType": "client-secret",
       "secret": "8d7c396d-123e-4c59-8397-f6fe31e34680",
       "redirectUris": [
-        "https://catalog.cloudzcp.com/*"
+        "https://catalog.cloudzcp.io/*"
       ],
       "webOrigins": [],
       "notBefore": 0,
@@ -1488,7 +1488,7 @@
       "clientAuthenticatorType": "client-secret",
       "secret": "ebcbe083-565e-48a2-94b0-2ec4c45c0eff",
       "redirectUris": [
-        "https://devops.cloudzcp.com/*"
+        "https://devops.cloudzcp.io/*"
       ],
       "webOrigins": [],
       "notBefore": 0,
@@ -2329,10 +2329,10 @@
     "_browser_header.xFrameOptions": "SAMEORIGIN",
     "quickLoginCheckMilliSeconds": "1000",
     "permanentLockout": "false",
-    "displayName": "Cloud Z CP - Demo",
+    "displayName": "Cloud Z CP - cloudzcp-",
     "_browser_header.xRobotsTag": "none",
     "maxFailureWaitSeconds": "900",
-    "displayNameHtml": "Cloud Z CP - Demo",
+    "displayNameHtml": "Cloud Z CP - cloudzcp-",
     "minimumQuickLoginWaitSeconds": "60",
     "failureFactor": "30",
     "actionTokenGeneratedByUserLifespan": "300",
