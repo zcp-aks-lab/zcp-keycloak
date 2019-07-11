@@ -1078,7 +1078,7 @@
       "clientAuthenticatorType": "client-secret",
       "secret": "0459b1f5-2543-4c53-be04-f62601428480",
       "redirectUris": [
-        "https://gitea.cloudzcp.io/*"
+        "https://git.cloudzcp.io/*"
       ],
       "webOrigins": [
         ""
