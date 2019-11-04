@@ -53,6 +53,14 @@
         "containerId": "zcp"
       },
       {
+        "id": "1094a919-d820-47d8-8ead-262ed4643dee",
+        "name": "log-manager",
+        "scopeParamRequired": false,
+        "composite": false,
+        "clientRole": false,
+        "containerId": "zcp"
+      },
+      {
         "id": "c6d283a0-09e8-4fae-9041-6755d6b4f1cc",
         "name": "offline_access",
         "description": "${role_offline-access}",
@@ -65,6 +73,22 @@
         "id": "5553e33c-cdf9-4ba7-a973-a692739a9753",
         "name": "uma_authorization",
         "description": "${role_uma_authorization}",
+        "scopeParamRequired": false,
+        "composite": false,
+        "clientRole": false,
+        "containerId": "zcp"
+      },
+      {
+        "id": "beb9f576-4fd1-41d1-828c-fdafd704020d",
+        "name": "cicd-manager",
+        "scopeParamRequired": false,
+        "composite": false,
+        "clientRole": false,
+        "containerId": "zcp"
+      },
+      {
+        "id": "c6b547cb-7b47-495e-923d-5dacbae373c0",
+        "name": "catalog-manager",
         "scopeParamRequired": false,
         "composite": false,
         "clientRole": false,
