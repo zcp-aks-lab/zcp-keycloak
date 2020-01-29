@@ -61,6 +61,6 @@ keycloak:
     path: /
 
     annotations: 
-      # kubernetes.io/ingress.class: nginx
+      kubernetes.io/ingress.class: private-nginx
       nginx.ingress.kubernetes.io/ssl-redirect: "True"
 
