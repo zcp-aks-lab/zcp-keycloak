@@ -79,6 +79,9 @@ spec:
 ### pvc 생성
 ```
 $ ./kube_pvc_create.sh
+
+# AKS 인 경우
+$ ./kube_pvc_create-aks.sh
 ```
 
 dynamic provisioning & bound 되는데 2~10 분 정도 소요될 수 있음.
@@ -209,6 +212,7 @@ $ ./kube_secret_create_realm.sh
 ### KeyCloak 생성
 values.yaml 을 프로젝트에 맞게 수정한다.
 Ingress 설정의 경우 클러스트의 Private ALB를 사용하는 경우 Private ALB ID 설정을 반드시 해야 한다.
+AKS 의 경우 values-aks.yaml 을 사용하며 별도의 수정이 없다.
 
 ```
 keycloak:
@@ -309,6 +313,8 @@ helm install stable/keycloak --version 2.0.0 \
 
 ```
 $ ./helm_install.sh
+# AKS 인 경우
+$ ./helm_install-aks.sh
 ```
 
 아래 명령어를 KeyCloak 이 정상적으로 설치 되었는지 확인 한다.
